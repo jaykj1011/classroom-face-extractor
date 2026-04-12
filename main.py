@@ -57,3 +57,5 @@ def extract_classroom_faces(image_path, output_dir="extracted_faces"):
     plt.show()
 
     print(f"All cropped faces have been saved to the '{output_dir}' folder.")
+
+extract_classroom_faces('IMG_5852.jpeg', output_dir='dataset/unknown_crops1')
